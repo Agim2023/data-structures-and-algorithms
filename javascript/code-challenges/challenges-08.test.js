@@ -137,6 +137,8 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 
 const citiesAtoJ = (arr) => {
   // Solution code here...
+
+  // Use regular expression pattern to match city names starting with letters A through J (case-insensitive)
   const regex = /^[A-J]/i;
 
   // Make sure I filter the input array to keep only the city names that match the pattern
