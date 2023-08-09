@@ -114,7 +114,7 @@ const setStatusAsAuthor = (people) => {
 
 const append = (arr1, arr2) => {
   // Solution code here...
-  for (const element of arr2) {
+  for (let element of arr2) {
     arr1.push(element);
   }
 
